@@ -1,7 +1,7 @@
-def CONTAINER_NAME="jenkins-pipeline"
+def CONTAINER_NAME="jenkins"
 def CONTAINER_TAG="latest"
 def DOCKER_HUB_USER="flvn"
-def HTTP_PORT="8090"
+def HTTP_PORT="8080"
 
 node {
 
