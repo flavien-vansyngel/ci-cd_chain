@@ -56,7 +56,7 @@ def imagePrune(containerName){
 }
 
 def imageBuild(containerName, tag){
-    sh "sudo docker build -t $containerName:$tag  -t $containerName --pull --no-cache ."
+    sh "sudo docker build -t $containerName:$tag  -t $containerName --pull --no-cache /home/flv/ci-cd_chain"
     echo "Image build complete"
 }
 
